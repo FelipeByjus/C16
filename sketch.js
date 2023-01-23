@@ -107,8 +107,8 @@ function draw() {
 if (arrow.isTouching(greenB)){
 greenB.destroyEach();
 arrowGroup.destroyEach();
-score = 3;
-gameState = PLAY
+score = Pontuação: + 3;
+
 }
 
 
@@ -119,8 +119,8 @@ gameState = PLAY
 if (arrow.isTouching(blueB)){
   blueB.destroyEach();
   arrowGroup.destroyEach();
-  score = 2;
-  gameState = PLAY 
+  score = Pontuação: + 2;
+  
   }
 
 //Crie a função isTouching()
@@ -130,8 +130,8 @@ if (arrow.isTouching(blueB)){
 if (arrow.isTouching(pinkB)){
   pinkB.destroyEach();
   arrowGroup.destroyEach();
-  score = 1;
-  gameState = PLAY
+  score = Pontuação: + 1;
+  
   }
 
  }
